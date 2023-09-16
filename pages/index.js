@@ -16,98 +16,117 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
+          <Image
+                src="/client-5.png"
+                alt="logo"
                 className={styles.vercelLogo}
-                width={100}
-                height={24}
+                width={300}
+                height={100}
                 priority
               />
-            </a>
+          <div>
+              <Image
+                className={styles.logo}
+                src="/hero-img.png"
+                alt="Banner"
+                width={400}
+                height={300}
+                priority
+              />
           </div>
         </div>
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
+      <div className={styles.center}>
+         <h1 className="cover-heading">HELLO WORLD!</h1>
+      </div>
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Image 
+              className={styles.logo}
+              src="/team-1.jpg"
+              alt="Founder"
+              width={230}
+              height={230}
+              priority/>
+
             <h2>
-              Docs <span>-&gt;</span>
+              Founder <span>-&gt;</span>
             </h2>
             <p>
-              Find in-depth information about Next.js features and&nbsp;API.
+            Innovative and visionary individual dedicated to revolutionizing &nbsp;online experiences through cutting-edge technology.
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Image 
+              className={styles.logo}
+              src="/team-2.jpg"
+              alt="Content Creator"
+              width={230}
+              height={230}
+              priority/>
             <h2>
-              Learn <span>-&gt;</span>
+              Content Creator<span>-&gt;</span>
             </h2>
             <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+            Curates engaging, relevant, and &nbsp;high-quality content for a website, catering to the needs and interests of the target audience.
             </p>
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
+             <Image 
+              className={styles.logo}
+              src="/team-3.jpg"
+              alt="SEO Specialist"
+              width={230}
+              height={230}
+              priority/>
             <h2>
-              Templates <span>-&gt;</span>
+            SEO Specialist<span>-&gt;</span>
             </h2>
             <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+            Optimizes website content and structure to enhance its &nbsp;visibility in search engine results, driving organic traffic and improving online presence..
             </p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Image 
+              className={styles.logo}
+              src="/team-4.jpg"
+              alt="Digital Marketer"
+              width={230}
+              height={230}
+              priority/>
             <h2>
-              Deploy <span>-&gt;</span>
+            Digital Marketer<span>-&gt;</span>
             </h2>
             <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+            Analyze to develop and implement effective marketing campaigns,&nbsp; 
+            driving engagement, conversions, and growth for businesses in the digital landscape..
             </p>
           </a>
-        </div>
+    </div>
       </main>
     </>
   )
